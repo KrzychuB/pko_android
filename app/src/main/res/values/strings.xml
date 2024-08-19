@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">movie</string>
+    <string name="movies_are_loaded">Movies are loaded.</string>
+    <string name="app_bar_title">Movies</string>
+    <string name="empty_list_text">Empty list</string>
+    <string name="empty_details_text">Empty details</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="app_bar_title_details">Movie details</string>
+    <string name="app_bar_title_unexpected_error">Error</string>
+    <string name="favourite_icon">Favourite icon</string>
+    <string name="title_header">Title</string>
+    <string name="original_title_header">Original Title</string>
+    <string name="release_date_title_header">Release date</string>
+    <string name="rate_title_header">Rate</string>
+    <string name="description_title_header">Description</string>
+</resources>

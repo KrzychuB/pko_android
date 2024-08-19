@@ -1,0 +1,31 @@
+package pl.kb.movie.domain.mappers
+
+
+data class MovieByIdDataModel (
+    var adult: Boolean? = null,
+    var backdropPath: String? = null,
+    var belongsToCollection: BelongsToCollectionDataModel? = BelongsToCollectionDataModel(),
+    var budget: Int? = null,
+    var genres: List<GenresDataModel> = listOf(),
+    var homepage: String? = null,
+    var id: Int? = null,
+    var imdbId: String? = null,
+    var originCountry: List<String> = listOf(),
+    var originalLanguage: String? = null,
+    var originalTitle: String? = null,
+    var overview: String? = null,
+    var popularity: Double? = null,
+    var posterPath: String? = null,
+    var productionCompanies: List<ProductionCompaniesDataModel> = listOf(),
+    var productionCountries: List<ProductionCountriesDataModel> = listOf(),
+    var releaseDate: String? = null,
+    var revenue: Int? = null,
+    var runtime: Int? = null,
+    var spokenLanguages: List<SpokenLanguagesDataModel> = listOf(),
+    var status: String? = null,
+    var tagline: String? = null,
+    var title: String? = null,
+    var video: Boolean? = null,
+    var voteAverage: Double? = null,
+    var voteCount: Int? = null,
+)
